@@ -88,3 +88,4 @@ cv2.imshow("Original", imgOriginal)
 cv2.imwrite('labelledDice.png', imgOriginal)
 
 cv2.waitKey(0)
+cv2.destroyAllWindows()
